@@ -24,6 +24,7 @@ class AppelRouteTestTest extends TestCase
         //Asserts
         $response->assertSuccessful();
         //$this->assertResponseOk();
+
         $this->assertEquals('coucou', $response->getContent());
 
     }
