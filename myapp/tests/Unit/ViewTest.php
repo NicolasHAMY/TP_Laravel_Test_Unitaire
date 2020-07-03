@@ -3,7 +3,10 @@
 
 namespace Tests\Unit;
 
-use PHPUnit\Framework\TestCase;
+// Ancien use pour test case
+// use PHPUnit\Framework\TestCase;
+
+use Tests\TestCase;
 
 class ViewTest extends TestCase
 {
@@ -14,15 +17,16 @@ class ViewTest extends TestCase
      */
     public function testBasicTest()
     {
-        /*
+
         //Arrange
 
         //Act
-       $response = $this->call('GET', '/');
+
+        $response = $this->call('GET', '/');
 
         //Asserts
-        $response->assertViewHas('message', 'Vous y êtes !');
-        */
+        $response->assertViewHas('message', 'yo');
+
     }
 
 
