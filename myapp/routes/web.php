@@ -1,7 +1,5 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,8 +11,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//use App\Mail\MailtrapExample;
+use Illuminate\Support\Facades\Mail;
 
-//Test Unitaire
+Route::get('/', function () {
+    return view('welcome');
+});
+/*
+Route::get('pageHome', 'ViewController@getPageHome');
+
+Route::get('pageContact', 'ViewController@getPageContact');
+
+Route::post('contactForm', 'FormController@postForm');
 
 /*
 Route::get('/', function () {
