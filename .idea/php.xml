@@ -132,6 +132,11 @@
       <path value="$PROJECT_DIR$/myapp/vendor/doctrine/lexer" />
       <path value="$PROJECT_DIR$/myapp/vendor/doctrine/instantiator" />
       <path value="$PROJECT_DIR$/myapp/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/myapp/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/myapp/vendor/php-webdriver/webdriver" />
+      <path value="$PROJECT_DIR$/myapp/vendor/laravel/browser-kit-testing" />
+      <path value="$PROJECT_DIR$/myapp/vendor/laravel/dusk" />
+      <path value="$PROJECT_DIR$/myapp/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
