@@ -11,7 +11,7 @@
 |
 */
 
-use App\Mail\MailtrapExample;
+//use App\Mail\MailtrapExample;
 use Illuminate\Support\Facades\Mail;
 
 Route::get('/', function () {
@@ -24,15 +24,19 @@ Route::get('pageContact', 'ViewController@getPageContact');
 
 Route::post('contactForm', 'FormController@postForm');
 
+/*
+Route::get('/', function () {
+    return 'coucou';
+});
+*/
 
-
-Route::get('/contact', function () {
-    return view('contact');
+Route::get('/', function () {
+    return view('welcome') -> with('message', 'yo');
 });
 
-Auth::routes();
+//Test unitaire Controller
+Route::get('welcome', 'ViewController@getPageWelcome');
 
-Route::get('/welcome', 'WelcomeController@index')->name('welcome');*/
 
 
 

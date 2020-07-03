@@ -2,7 +2,10 @@
 
 namespace Tests\Unit;
 
-use PHPUnit\Framework\TestCase;
+// Ancien use pour test case
+// use PHPUnit\Framework\TestCase;
+
+use Tests\TestCase;
 
 class PremierTest extends TestCase
 {

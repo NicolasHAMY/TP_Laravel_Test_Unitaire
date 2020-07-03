@@ -2,6 +2,7 @@
 
 
 namespace Tests\Unit;
+
 // Ancien use pour test case
 // use PHPUnit\Framework\TestCase;
 
@@ -16,6 +17,7 @@ class AppelRouteTestTest extends TestCase
      */
     public function testBasicTest()
     {
+/*
         //Arrange
 
         //Act
@@ -26,7 +28,7 @@ class AppelRouteTestTest extends TestCase
         //$this->assertResponseOk();
 
         $this->assertEquals('coucou', $response->getContent());
-
+*/
     }
 
 }
